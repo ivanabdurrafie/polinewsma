@@ -16,7 +16,7 @@ export default class Home extends Component {
             <div class="row">
               <div class="col-sm-12">
                 <div class="d-flex position-relative  float-left">
-                  <h3 class="section-title">World News</h3>
+                  <h3 class="section-title">Polinema News</h3>
                 </div>
               </div>
             </div>
@@ -28,7 +28,7 @@ export default class Home extends Component {
                     class="img-fluid"
                     alt="world-news"
                   />
-                  <span class="thumb-title">TRAVEL</span>
+                  <span class="thumb-title">Events</span>
                 </div>
                 <h5 class="font-weight-bold mt-3">
                   Refugees flood Turkey's border with Greece
@@ -47,7 +47,7 @@ export default class Home extends Component {
                     class="img-fluid"
                     alt="world-news"
                   />
-                  <span class="thumb-title">NEWS</span>
+                  <span class="thumb-title">Blog</span>
                 </div>
                 <h5 class="font-weight-bold mt-3">
                   South Korea’s Moon Jae-in sworn in vowing address
@@ -66,7 +66,7 @@ export default class Home extends Component {
                     class="img-fluid"
                     alt="world-news"
                   />
-                  <span class="thumb-title">ART</span>
+                  <span class="thumb-title">Blog</span>
                 </div>
                 <h5 class="font-weight-bold mt-3">
                   These puppies are training to assist in avalanche rescue
@@ -85,7 +85,7 @@ export default class Home extends Component {
                     class="img-fluid"
                     alt="world-news"
                   />
-                  <span class="thumb-title">BUSINESS</span>
+                  <span class="thumb-title">Blog</span>
                 </div>
                 <h5 class="font-weight-bold mt-3">
                   'Love Is Blind' couple opens up about their first year
