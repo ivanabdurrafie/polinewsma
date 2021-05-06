@@ -16,18 +16,11 @@ export default class Header extends Component {
                     </ul>
                     <div>
                       <a class="navbar-brand" href="/#">
-                        <img src="assets/images/logo.svg" alt="" />
+                        Polinewsma
+                        {/* <img src="assets/images/logo.svg" alt="" /> */}
                       </a>
                     </div>
                     <div class="d-flex">
-                      <ul class="navbar-right">
-                        <li>
-                          <a href="/#">ENGLISH</a>
-                        </li>
-                        <li>
-                          <a href="/#">ESPAÑOL</a>
-                        </li>
-                      </ul>
                       <ul class="social-media">
                         <li>
                           <a href="/#">
@@ -86,14 +79,10 @@ export default class Header extends Component {
                         </li>
                         <li class="nav-item">
                           <a class="nav-link" href="pages/world.html">
-                            World
+                            Profile
                           </a>
                         </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="pages/author.html">
-                            Magazine
-                          </a>
-                        </li>
+                        
                         <li class="nav-item">
                           <a class="nav-link" href="pages/news-post.html">
                             Blog
@@ -101,32 +90,12 @@ export default class Header extends Component {
                         </li>
                         <li class="nav-item">
                           <a class="nav-link" href="pages/business.html">
-                            Business
+                            Events
                           </a>
                         </li>
                         <li class="nav-item">
                           <a class="nav-link" href="pages/sports.html">
                             Sports
-                          </a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="pages/art.html">
-                            Art
-                          </a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="pages/politics.html">
-                            Politics
-                          </a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="pages/real-estate.html">
-                            Real estate
-                          </a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="pages/travel.html">
-                            Travel
                           </a>
                         </li>
                         <li class="nav-item">
