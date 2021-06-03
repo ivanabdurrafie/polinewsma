@@ -5,14 +5,14 @@ export default class Footer extends Component {
     return (
       <div>
         <footer>
-          <div class="container">
-            <div class="row">
-              <div class="col-sm-12">
-                <div class="border-top"></div>
+          <div className="container">
+            <div className="row">
+              <div className="col-sm-12">
+                <div className="border-top"></div>
               </div>
-              <div class="col-sm-3 col-lg-3">
-                <ul class="footer-vertical-nav">
-                  <li class="menu-title">
+              <div className="col-sm-3 col-lg-3">
+                <ul className="footer-vertical-nav">
+                  <li className="menu-title">
                     <a href="pages/news-post.html">News</a>
                   </li>
                   <li>
@@ -23,9 +23,9 @@ export default class Footer extends Component {
                   </li>
                 </ul>
               </div>
-              <div class="col-sm-3 col-lg-3">
-                <ul class="footer-vertical-nav">
-                  <li class="menu-title">
+              <div className="col-sm-3 col-lg-3">
+                <ul className="footer-vertical-nav">
+                  <li className="menu-title">
                     <a href="pages/world.html">World</a>
                   </li>
                   <li>
@@ -36,9 +36,9 @@ export default class Footer extends Component {
                   </li>
                 </ul>
               </div>
-              <div class="col-sm-3 col-lg-3">
-                <ul class="footer-vertical-nav">
-                  <li class="menu-title">
+              <div className="col-sm-3 col-lg-3">
+                <ul className="footer-vertical-nav">
+                  <li className="menu-title">
                     <a href="/#">Features</a>
                   </li>
                   <li>
@@ -49,9 +49,9 @@ export default class Footer extends Component {
                   </li>
                 </ul>
               </div>
-              <div class="col-sm-3 col-lg-3">
-                <ul class="footer-vertical-nav">
-                  <li class="menu-title">
+              <div className="col-sm-3 col-lg-3">
+                <ul className="footer-vertical-nav">
+                  <li className="menu-title">
                     <a href="/#">More</a>
                   </li>
                   <li>
@@ -63,18 +63,18 @@ export default class Footer extends Component {
                 </ul>
               </div>
             </div>
-            <div class="row">
-              <div class="col-sm-12">
-                <div class="d-lg-flex justify-content-between align-items-center border-top mt-5 footer-bottom">
-                  <ul class="footer-horizontal-menu">
+            <div className="row">
+              <div className="col-sm-12">
+                <div className="d-lg-flex justify-content-between align-items-center border-top mt-5 footer-bottom">
+                  <ul className="footer-horizontal-menu">
                     
                   </ul>
-                  <p class="font-weight-medium">
+                  <p className="font-weight-medium">
                     © 2020{" "}
                     <a
                       href="https://www.bootstrapdash.com/"
                       target="_blank"
-                      class="text-dark"
+                      className="text-dark"
                     >
                       @ BootstrapDash
                     </a>
