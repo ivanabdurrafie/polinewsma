@@ -1,9 +1,10 @@
 import React, { Component } from "react";
+import { Link } from 'react-router-dom'
 import Header from "./Header";
 import Footer from "./Footer";
 import axios from "axios";
-import Carousel from "./Carousel";
-import Image from "react-bootstrap/Image";
+// import Carousel from "./Carousel";
+// import Image from "react-bootstrap/Image";
 export default class Home extends Component {
   constructor() {
     super();
@@ -12,17 +13,17 @@ export default class Home extends Component {
     };
   }
   componentDidMount() {
-    const url = "https://apion.herokuapp.com/news";
+    const url = "http://localhost:8000/api/news";
     axios
       .get(url, {
         params: {
-          limit: 4,
+          limit: 2,
         },
       })
       .then((news) => {
-        console.log(news.data.data);
+        console.log(news.data);
         this.setState({
-          news: news.data.data,
+          news: news.data,
         });
       });
   }
@@ -47,7 +48,7 @@ export default class Home extends Component {
                 return (
                   <div
                     className="col-lg-3 col-sm-6 grid-margin mb-5 mb-sm-2"
-                    key={berita._id}
+                    key={berita.id}
                   >
                     <div className="position-relative image-hover">
                       <img
@@ -59,9 +60,10 @@ export default class Home extends Component {
                     </div>
                     <h5 className="font-weight-bold mt-3">{berita.title}</h5>
                     <p className="fs-15 font-weight-normal">{berita.date}</p>
-                    <a href="#" className="font-weight-bold text-dark pt-2">
-                      Read Article
-                    </a>
+                    <Link to={`news/${berita.id}`} className="font-weight-bold text-dark pt-2" > Read Article</Link>
+                    {/* <a href="news/'${berita.id}'" className="font-weight-bold text-dark pt-2">
+                     
+                    </a> */}
                   </div>
                 );
               })}
