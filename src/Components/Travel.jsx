@@ -5,7 +5,7 @@ import Footer from "./Footer";
 import axios from "axios";
 // import Carousel from "./Carousel";
 // import Image from "react-bootstrap/Image";
-export default class Ssport extends Component {
+export default class Travel extends Component {
   constructor() {
     super();
     this.state = {
@@ -13,7 +13,7 @@ export default class Ssport extends Component {
     };
   }
   componentDidMount() {
-    const url = "http://localhost:8000/api/topic/sport";
+    const url = "http://localhost:8000/api/topic/travel";
     axios
       .get(url, {
         params: {

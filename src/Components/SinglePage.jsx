@@ -5,6 +5,7 @@ import Footer from "./Footer";
 import axios from "axios";
 import ReactHtmlParser from "react-html-parser";
 
+
 export default function SinglePage() {
   const [news, setNews] = useState([]);
   const { id } = useParams();
@@ -30,7 +31,7 @@ export default function SinglePage() {
               <div className="news-post-wrapper-sm ">
                 <h1 className="text-center">{news.title}</h1>
                 <div className="text-center">
-                  <a href="#" className="btn btn-dark font-weight-bold mb-4">
+                  <a href={news.topic} className="btn btn-dark font-weight-bold mb-4">
                     {news.topic}
                   </a>
                 </div>
