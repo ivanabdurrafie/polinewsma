@@ -144,7 +144,7 @@ export default class Home extends Component {
                 </a>
               </div> */}
             </div>
-            <div className="popular-news">
+            {/* <div className="popular-news">
               <div className="row">
                 <div className="col-lg-3">
                   <div className="d-flex position-relative float-left">
@@ -312,7 +312,7 @@ export default class Home extends Component {
                   </div>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
 

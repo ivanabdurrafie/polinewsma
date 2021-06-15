@@ -77,11 +77,11 @@ export default class Header extends Component {
                             Home
                           </a>
                         </li>
-                        <li className="nav-item">
+                        {/* <li className="nav-item">
                           <a className="nav-link" href="pages/world.html">
                             Profile
                           </a>
-                        </li>
+                        </li> */}
                         
                         <li className="nav-item">
                           <a className="nav-link" href="news">
@@ -89,8 +89,8 @@ export default class Header extends Component {
                           </a>
                         </li>
                         <li className="nav-item">
-                          <a className="nav-link" href="pages/business.html">
-                            Events
+                          <a className="nav-link" href="techno">
+                            Techno
                           </a>
                         </li>
                         <li className="nav-item">
@@ -99,8 +99,13 @@ export default class Header extends Component {
                           </a>
                         </li>
                         <li className="nav-item">
+                          <a className="nav-link" href="travel">
+                            Travel
+                          </a>
+                        </li>
+                        <li className="nav-item">
                           <a className="nav-link" href="/#">
-                            <i className="mdi mdi-magnify"></i>
+                            {/* <i className="mdi mdi-magnify"></i> */}
                           </a>
                         </li>
                       </ul>

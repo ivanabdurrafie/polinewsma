@@ -4,6 +4,8 @@ import './App.css';
 import Home from './Components/Home';
 import Sport from './Components/Sport';
 import News from './Components/News'
+import Techno from './Components/Techno'
+import Travel from './Components/Travel'
 import SinglePage from './Components/SinglePage'
 import NotFound from './Components/NotFound'
 
@@ -15,6 +17,8 @@ function App() {
           <Route exact path="/" component={Home} />
           <Route exact path="/sport" component={Sport} />
           <Route exact path="/news" component={News} />
+          <Route exact path="/techno" component={Techno} />
+          <Route exact path="/travel" component={Travel} />
           <Route exact path='/news/:id' component={SinglePage} />
           <Route exact path="*" component={NotFound} />
           {/* <Route path="*" components= {NotFound}/> */}
