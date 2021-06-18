@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from 'react-router-dom'
 
 export default class Header extends Component {
   render() {
@@ -11,8 +12,8 @@ export default class Header extends Component {
                 <nav className="navbar navbar-expand-lg navbar-light">
                   <div className="d-flex justify-content-between align-items-center navbar-top">
                     <ul className="navbar-left">
-                      <li>Wed, March 4, 2020</li>
-                      <li>30°C,London</li>
+                      {/* <li>Wed, March 4, 2020</li>
+                      <li>30°C,London</li> */}
                     </ul>
                     <div>
                       <a className="navbar-brand" href="/#">
@@ -22,7 +23,8 @@ export default class Header extends Component {
                     </div>
                     <div className="d-flex">
                       <ul className="social-media">
-                        <li>
+                      <Link to={`login`} className="font-weight-bold text-dark pt-2" > Login Admin</Link>
+                        {/* <li>
                           <a href="/#">
                             <i className="mdi mdi-instagram"></i>
                           </a>
@@ -46,7 +48,7 @@ export default class Header extends Component {
                           <a href="/#">
                             <i className="mdi mdi-twitter"></i>
                           </a>
-                        </li>
+                        </li> */}
                       </ul>
                     </div>
                   </div>

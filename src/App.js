@@ -8,6 +8,10 @@ import Techno from './Components/Techno'
 import Travel from './Components/Travel'
 import SinglePage from './Components/SinglePage'
 import NotFound from './Components/NotFound'
+import Dashboard from './admin/dashboard';
+import Tambah from './admin/tambah';
+import Edit from "./admin/edit";
+import Login from "./admin/login";
 
 function App() {
   return (
@@ -20,6 +24,11 @@ function App() {
           <Route exact path="/techno" component={Techno} />
           <Route exact path="/travel" component={Travel} />
           <Route exact path='/news/:id' component={SinglePage} />
+          {/* admin */}
+          <Route exact path='/dashboard' component={Dashboard} />
+          <Route exact path='/tambahberita' component={Tambah} />
+          <Route exact path='/login' component={Login} />
+          <Route exact path='/:id' component={Edit} />
           <Route exact path="*" component={NotFound} />
           {/* <Route path="*" components= {NotFound}/> */}
         </Switch>
